@@ -5,45 +5,32 @@ This study aims to develop a **stress-predict dataset** and perform descriptive,
 ## Dataset Files
 
 #### |-- Processed_data 
-     |-- heartrate_resprate_timestamps_labels Folder
 
-          |----- Improved_Combined_hr_rsp_binary_PX.csv (contain information of heart rates and respiratory rates along with timestamps and labels (for nonstress/baseline and 1 for stress task duration). Here X is participant number)
+            |-----Improved_All_Combined_hr_rsp_binary.csv (contain information of heart rates and respiratory rates of all the participants along with timestamps and labels (for nonstress/baseline and 1 for stress task duration))
 
-          |----- Time_logs.xlsx (contain date and start/end time of each task for each participant, Irish standard time)
+            |-----Questionnaires_scores.xlsx (contains information about the PSS and STAI questionnaire scores of each participant)
 
-    |-----heartrate_timestamps_labels Folder
-
-          |-----PX_comb_binary.csv (contain information of heart rates along with timestamps and labels (for nonstress/baseline and 1 for stress task duration). Here X is participant number)
-
-    |-----resprrate_timestamps_labels Folder
-
-         |-----Improved_PX_comb_10sec_binary.csv (contain information of respiratory rates along with timestamps and labels (for nonstress/baseline and 1 for stress task duration). Here X is participant number)
-
-    |-----Improved_All_Combined_hr_rsp_binary.csv (contain information of heart rates and respiratory rates of all the participants along with timestamps and labels (for nonstress/baseline and 1 for stress task duration))
-
-    |-----Questionnaires_scores.xlsx (contains information about the PSS and STAI questionnaire scores of each participant)
-
-    |-----Time_logs.xlsx (contain date and start/end time of each task for each participant, Irish standard time)
+            |-----Time_logs.xlsx (contain date and start/end time of each task for each participant, Irish standard time)
 
 #### |-- Raw_data
 
-    |-----SX Folder (folders with raw files from Empatica E4. Where X is participant number)
+            |-----SX Folder (folders with raw files from Empatica E4. Where X is participant number)
 
-        |-----ACC.csv (contains accelerometer data (x, y, z axis))
+                  |-----ACC.csv (contains accelerometer data (x, y, z axis))
 
-        |-----BVP.csv (contains raw BVP data)
+                  |-----BVP.csv (contains raw BVP data)
 
-        |-----EDA.csv (contains EDA data (skin conductance))
+                  |-----EDA.csv (contains EDA data (skin conductance))
 
-        |-----HR.csv (contains heart rate data)
+                  |-----HR.csv (contains heart rate data)
 
-        |-----IBI.csv (contains inter-beat-interval data)
+                  |-----IBI.csv (contains inter-beat-interval data)
 
-        |-----info.txt (contains information about all the csv file and sampling rate)
+                  |-----info.txt (contains information about all the csv file and sampling rate)
+     
+                  |-----tags_SX.csv (contains timestamp tags. start-end time of each task)
 
-        |-----tags_SX.csv (contains timestamp tags. start-end time of each task)
-
-        |-----TEMP.csv (contains skin temperature data)
+                  |-----TEMP.csv (contains skin temperature data)
 
 ## Libraries
 
