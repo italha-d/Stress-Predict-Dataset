@@ -62,5 +62,5 @@ Following libraries were used for analysis:
 
 **When using this dataset, please cite the following:**
 
-1. Talha Iqbal, Andrew Simpkin, Nicola Glynn, John Killilea, Jane Walsh, Gerard Molloy, Sandra Ganly, Eileen Coen, Adnan Elahi, William Wijns, and Atif Shahzad. _"Stress Levels Monitoring Using Sensor-Derived Signals from Non-Invasive Wearable Device: A Pilot Study and Stress-Predict Dataset.",_ Nature Scientific Data [Under Review]
+1. Talha Iqbal, Andrew J. Simpkin, Davood Roshan, Nicola Glynn, John Killilea, Jane Walsh, Gerard Molloy, Sandra Ganly, Hannah Ryman, Eileen Coen, Adnan Elahi, William Wijns, and Atif Shahzad. 2022. _"Stress Monitoring Using Wearable Sensors: A Pilot Study and Stress-Predict Dataset"_, Sensors 22, no. 21: 8135. https://doi.org/10.3390/s22218135
 2. Talha Iqbal, Adnan Elahi, Sandra Ganly, William Wijns, and Atif Shahzad. _"Photoplethysmography-Based Respiratory Rate Estimation Algorithm for Health Monitoring Applications."_ Journal of medical and biological engineering 42, no. 2 (2022): 242-252.
