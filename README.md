@@ -1,16 +1,16 @@
 # Stress-Predict Dataset
 
-This study aims to develop a **stress-predict dataset** and perform descriptive, statistical and classification analysis of biophysiological data collected from healthy individuals, who underwent various induced emotional states, to assess the relative sensitivity and specificity of common biophysiological indicators of stress and provide a stepping-stone towards the development of an accurate stress monitoring device. In this study, 35 healthy volunteers performed three different stress inducing tasks (i.e., Stroop color word test, interview session and hyperventilation session) with baseline/relax period in-between each task, for 60 minutes. Blood volume pulse (BVP), Inter-beat-intervals, and heart rate were being continuously recorded using Empatica watches while respiratory rate was estimated using PPG-based respiratory rate estimation algorithm.
+This study aims to develop a **stress-predict dataset** and perform descriptive, statistical and classification analysis of biophysiological data collected from healthy individuals, who underwent various induced emotional states, to assess the relative sensitivity and specificity of common biophysiological indicators of stress and provide a stepping-stone towards the development of an accurate stress monitoring device. In this study, 35 healthy volunteers performed three different stress-inducing tasks (i.e., Stroop colour word test, interview session and hyperventilation session) with baseline/relaxation period between each task, for 60 minutes. Blood volume pulse (BVP), Inter-beat-intervals, and heart rate were continuously recorded using Empatica watches while the respiratory rate was estimated using a PPG-based respiratory rate estimation algorithm.
 
 ## Dataset Files
 
 #### |-- Processed_data 
 
-            |-----Improved_All_Combined_hr_rsp_binary.csv (contain information of heart rates and respiratory rates of all the participants along with timestamps and labels (for nonstress/baseline and 1 for stress task duration))
+            |-----Improved_All_Combined_hr_rsp_binary.csv (contain information on heart rates and respiratory rates of all the participants along with timestamps and labels (0 for nonstress/baseline and 1 for stress task duration))
 
             |-----Questionnaires_scores.xlsx (contains information about the PSS and STAI questionnaire scores of each participant)
 
-            |-----Time_logs.xlsx (contain date and start/end time of each task for each participant, Irish standard time)
+            |-----Time_logs.xlsx (contain the date and start/end time of each task for each participant, Irish standard time)
 
 #### |-- Raw_data
 
@@ -26,9 +26,9 @@ This study aims to develop a **stress-predict dataset** and perform descriptive,
 
                   |-----IBI.csv (contains inter-beat-interval data)
 
-                  |-----info.txt (contains information about all the csv file and sampling rate)
+                  |-----info.txt (contains information about all the CSV file and sampling rate)
      
-                  |-----tags_SX.csv (contains timestamp tags. start-end time of each task)
+                  |-----tags_SX.csv (has timestamp tags. start-end time of each task)
 
                   |-----TEMP.csv (contains skin temperature data)
 
@@ -63,4 +63,4 @@ Following libraries were used for analysis:
 **When using this dataset, please cite the following:**
 
 1. Talha Iqbal, Andrew J. Simpkin, Davood Roshan, Nicola Glynn, John Killilea, Jane Walsh, Gerard Molloy, Sandra Ganly, Hannah Ryman, Eileen Coen, Adnan Elahi, William Wijns, and Atif Shahzad. 2022. _"Stress Monitoring Using Wearable Sensors: A Pilot Study and Stress-Predict Dataset"_, Sensors 22, no. 21: 8135. https://doi.org/10.3390/s22218135
-2. Talha Iqbal, Adnan Elahi, Sandra Ganly, William Wijns, and Atif Shahzad. _"Photoplethysmography-Based Respiratory Rate Estimation Algorithm for Health Monitoring Applications."_ Journal of medical and biological engineering 42, no. 2 (2022): 242-252. https://doi.org/10.1007/s40846-022-00700-z
+2. Talha Iqbal, Adnan Elahi, Sandra Ganly, William Wijns, and Atif Shahzad. _"Photoplethysmography-Based Respiratory Rate Estimation Algorithm for Health Monitoring Applications."_ Journal of Medical and biological engineering 42, no. 2 (2022): 242-252. https://doi.org/10.1007/s40846-022-00700-z
